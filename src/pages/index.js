@@ -33,7 +33,7 @@ const IndexPage = () => {
         image={'/banner1.png'}
         title={'Brand Your Business in 5 Days — No Designer Needed.'}
         subtitle={'A simple plug-and-play kit with logos, colors, and templates to get your business looking professional (fast)'}
-        ctaText={'shop now'}
+        ctaText={'Get My Branding Kit'}
         ctaAction={goToShop}
       />
 
@@ -80,7 +80,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'The Solution'}
-            description={`Your Branding Kit is Here`}
+            description={`Everything you need to look professional in less than a week.`}
             textLink={'I want my kit'}
             link={'/shop'}
           />
@@ -89,10 +89,9 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`How It Works`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>YOUR 5-DAY BRANDING PLAN</Link>
         </div>
       </div>
 
@@ -101,7 +100,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'about The Branding Kit Co'}
         quote={
-          '“No designer needed. No overwhelm. Ready-to-launch brand you can be proud of. Proven templates that actually look good (not generic clipart).”'
+          '“No designer needed. No overwhelm.\n Ready-to-launch brand you can be proud of.\n Proven templates that actually look good (not generic clipart).”'
         }
       />
 
