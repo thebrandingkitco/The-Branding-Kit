@@ -100,7 +100,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'about The Branding Kit Co'}
         quote={
-          '“No designer needed. No overwhelm.\n Ready-to-launch brand you can be proud of.\n Proven templates that actually look good (not generic clipart).”'
+          '“No designer needed. No overwhelm.\n Ready-to-launch brand you can be proud of.\n\n Proven templates that actually look good (not generic clipart).”'
         }
       />
 
