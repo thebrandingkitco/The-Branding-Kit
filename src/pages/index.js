@@ -79,8 +79,8 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            title={'How It Works'}
+            description={`Your 5-Day Branding Plan`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -99,9 +99,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about TBK'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“No designer needed. No overwhelm. Ready-to-launch brand you can be proud of. Proven templates that actually look good (not generic clipart).”'
         }
       />
 
