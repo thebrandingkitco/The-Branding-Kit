@@ -79,9 +79,9 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'How It Works'}
-            description={`Your 5-Day Branding Plan`}
-            textLink={'shop now'}
+            title={'The Solution'}
+            description={`Your Branding Kit is Here`}
+            textLink={'I want my kit'}
             link={'/shop'}
           />
         </Container>
@@ -99,7 +99,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about TBK'}
+        title={'about The Branding Kit Co'}
         quote={
           '“No designer needed. No overwhelm. Ready-to-launch brand you can be proud of. Proven templates that actually look good (not generic clipart).”'
         }
@@ -117,9 +117,9 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          title={'How It Works'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Your 5-Day Branding Plan'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -130,8 +130,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Branded by You'}
+          subtitle={'Tag @thebrandingkit.co to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
