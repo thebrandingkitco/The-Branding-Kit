@@ -31,8 +31,8 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
+        title={'Brand Your Business in 5 Days — No Designer Needed.'}
+        subtitle={'A simple plug-and-play kit with logos, colors, and templates to get your business looking professional (fast)'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
