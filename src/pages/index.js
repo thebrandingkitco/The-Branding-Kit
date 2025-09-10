@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Starting a business is exciting — but the branding part feels overwhelming.'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Everything you need to look professional in less than a week.'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
